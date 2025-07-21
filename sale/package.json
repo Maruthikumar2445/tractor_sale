@@ -1,0 +1,43 @@
+{
+  "name": "sale",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test:responsive": "cypress open --config viewportWidth=375,viewportHeight=667",
+    "test:tablet": "cypress open --config viewportWidth=768,viewportHeight=1024",
+    "test:desktop": "cypress open --config viewportWidth=1920,viewportHeight=1080"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "bootstrap": "^5.3.6",
+    "formik": "^2.4.6",
+    "framer-motion": "^10.18.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.5.3",
+    "react-lazy-load-image-component": "^1.6.3",
+    "react-router-dom": "^7.6.0",
+    "swiper": "^11.2.6",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "sass": "^1.69.5",
+    "vite": "^6.3.5"
+  }
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap');
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --primary-blue: #004B93;    /* Swaraj Blue */
+  --secondary-green: #2A8735; /* Farmer Green */
+  --accent-red: #FF6B6B;     /* Light Red */
+  --light-blue: #E5F1FF;
+  --primary-green: #2F5A33;
+  --hover-green: #1F3D22;
+  --light-green: #73A580;
+  --pale-green: #E8F3E9;
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a5568;
+  --neutral-50: #fafafa;
+  --neutral-100: #f5f5f5;
+  --neutral-200: #e5e5e5;
+  --neutral-300: #d4d4d4;
+  --white: #ffffff;
+  --gray-50: #F9FAFB;
+  --gray-100: #F3F4F6;
+  --gray-200: #E5E7EB;
+  --gray-700: #374151;
+  --gray-900: #111827;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --telugu-font: 'Noto Sans Telugu', sans-serif;
+}
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+html[lang="te"] {
+  font-family: var(--telugu-font);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Button reset */
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
